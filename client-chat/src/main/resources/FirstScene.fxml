@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="702.0" prefWidth="544.0" style="-fx-background-color: #FFFACD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Aut">
+   <children>
+      <Button fx:id="join" layoutX="135.0" layoutY="414.0" mnemonicParsing="false" onAction="#join" prefHeight="52.0" prefWidth="274.0" style="-fx-background-color: #808080;" text="Вход" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font></Button>
+      <Button fx:id="registration" layoutX="135.0" layoutY="488.0" mnemonicParsing="false" onAction="#registration" prefHeight="52.0" prefWidth="274.0" style="-fx-background-color: #808080;" text="Регистрация" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="28.0" />
+         </font></Button>
+      <ImageView fitHeight="35.0" fitWidth="40.0" layoutX="469.0" layoutY="23.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@close.png" />
+         </image></ImageView>
+      <ImageView fitHeight="194.0" fitWidth="207.0" layoutX="175.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@32345lemon_98895.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

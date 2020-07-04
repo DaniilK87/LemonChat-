@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="702.0" prefWidth="544.0" style="-fx-background-color: #FFFACD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Controller">
+
+    <Pane layoutX="4.0" layoutY="48.0" prefHeight="451.0" prefWidth="171.0" />
+    <ListView fx:id="chatMsg" layoutX="25.0" layoutY="67.0" prefHeight="517.0" prefWidth="303.0" style="-fx-background-color: #FFFACD; -fx-border-color: #000000; -fx-border-radius: 0;" stylesheets="@listViewStyleCell.css" />
+
+    <ImageView fitHeight="42.0" fitWidth="35.0" layoutX="255.0" layoutY="646.0" onMouseClicked="#send" pickOnBounds="true" preserveRatio="true">
+        <Image url="@sendMessage.png" />
+    </ImageView>
+     <TextField fx:id="nickName" editable="false" layoutX="340.0" layoutY="599.0" onMouseClicked="#clearField" prefHeight="35.0" prefWidth="171.0" promptText="Приватное сообщение" style="-fx-background-color: #FFFACD; -fx-border-color: #000000; -fx-border-radius: 0;" stylesheets="@inputAreaStyleText.css" />
+    <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="481.0" layoutY="14.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+        <Image url="@close.png" />
+    </ImageView>
+    <TextField fx:id="inputText" layoutX="25.0" layoutY="599.0" onKeyReleased="#sendEnter" prefHeight="35.0" prefWidth="303.0" promptText="Введите сообщение" style="-fx-background-color: #FFFACD; -fx-border-color: #000000; -fx-border-radius: 0;" stylesheets="@inputAreaStyleText.css">
+      <font>
+         <Font name="Arial Bold" size="12.0" />
+      </font></TextField>
+     <ListView fx:id="listView" layoutX="340.0" layoutY="67.0" prefHeight="517.0" prefWidth="171.0" style="-fx-background-color: #FFFACD; -fx-border-radius: 0; -fx-border-color: #000000;" stylesheets="@listViewStyleCell.css" />
+</AnchorPane>

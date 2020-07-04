@@ -1,0 +1,82 @@
+22:43:54 [INFO ] <SrvApp:<init>:27> - SERVER: started
+22:44:05 [INFO ] <SrvApp:auth:63> - CLIENT: 1 is authorized
+22:44:05 [INFO ] <SrvApp:<init>:36> - CLIENT: 1 accepted
+22:44:06 [INFO ] <SrvApp:run:112> - CLIENT: 1 exit from chat
+22:45:52 [INFO ] <SrvApp:<init>:27> - SERVER: started
+22:45:59 [ERROR] <SrvApp:isUserDataConfirmed:105> - CLIENT DB: not found login in DB
+22:45:59 [ERROR] <SrvApp:auth:69> - CLIENT AUTH: Авторизация отклонена
+22:48:02 [ERROR] <SrvApp:<init>:42> - Неудачная попытка авторизации
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedShort(DataInputStream.java:345)
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:594)
+	at java.base/java.io.DataInputStream.readUTF(DataInputStream.java:569)
+	at SrvApp.auth(SrvApp.java:52)
+	at SrvApp.<init>(SrvApp.java:32)
+	at SrvApp.main(SrvApp.java:185)
+20:31:48 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:32:05 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+20:32:05 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+20:32:33 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+20:33:32 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+20:33:32 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+20:33:45 [ERROR] <SrvApp:run:129> - CLIENT: lost connect with Kir
+20:33:45 [INFO ] <SrvApp:run:142> - SERVER: Server is stopped
+20:32:59 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:33:13 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+20:33:13 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+20:33:28 [ERROR] <SrvApp:run:129> - CLIENT: lost connect with Kir
+20:33:28 [INFO ] <SrvApp:run:142> - SERVER: Server is stopped
+20:35:54 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+20:35:54 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+20:37:34 [ERROR] <SrvApp:run:129> - CLIENT: lost connect with Kir
+20:37:34 [INFO ] <SrvApp:run:142> - SERVER: Server is stopped
+20:39:03 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:39:18 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+20:39:18 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+21:03:30 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+22:12:23 [INFO ] <SrvApp:<init>:27> - SERVER: started
+22:12:42 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+22:12:42 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+22:13:59 [INFO ] <SrvApp:auth:63> - CLIENT: Tik is authorized
+22:13:59 [INFO ] <SrvApp:<init>:36> - CLIENT: Tik accepted
+22:14:38 [ERROR] <SrvApp:run:129> - CLIENT: lost connect with Tik
+22:14:38 [INFO ] <SrvApp:deleteClient:45> - CLIENT: remove Tik
+22:14:38 [INFO ] <SrvApp:run:142> - SERVER: Server is stopped
+22:14:38 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+22:15:48 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+22:15:48 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+22:16:19 [ERROR] <SrvApp:auth:69> - CLIENT AUTH: Авторизация отклонена
+22:16:23 [INFO ] <SrvApp:auth:63> - CLIENT: Tik is authorized
+22:16:23 [INFO ] <SrvApp:<init>:36> - CLIENT: Tik accepted
+22:16:48 [INFO ] <SrvApp:deleteClient:45> - CLIENT: remove Kir
+22:16:48 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+22:16:49 [INFO ] <SrvApp:run:112> - CLIENT: Tik exit from chat
+22:55:59 [INFO ] <SrvApp:<init>:27> - SERVER: started
+22:56:12 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+22:56:12 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+01:29:32 [INFO ] <SrvApp:<init>:27> - SERVER: started
+01:30:42 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+01:30:42 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+01:30:51 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+01:32:06 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+01:32:06 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+01:33:18 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+01:33:33 [INFO ] <SrvApp:auth:63> - CLIENT: Kir is authorized
+01:33:33 [INFO ] <SrvApp:<init>:36> - CLIENT: Kir accepted
+01:33:40 [INFO ] <SrvApp:run:112> - CLIENT: Kir exit from chat
+19:11:00 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:35:48 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:37:00 [INFO ] <SrvApp:<init>:27> - SERVER: started
+20:39:39 [INFO ] <SrvApp:<init>:27> - SERVER: started
+21:00:13 [INFO ] <SrvApp:<init>:27> - SERVER: started
+21:01:11 [ERROR] <SrvApp:<init>:42> - Неудачная попытка авторизации
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at SrvApp.auth(SrvApp.java:52)
+	at SrvApp.<init>(SrvApp.java:32)
+	at SrvApp.main(SrvApp.java:188)

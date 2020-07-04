@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="702.0" prefWidth="544.0" style="-fx-background-color: #FFFACD;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AutController">
+    <Button fx:id="enterChat" layoutX="231.0" layoutY="500.0" mnemonicParsing="false" onAction="#clickAuthBtn" prefHeight="50.0" prefWidth="158.0" style="-fx-background-color: #808080; -fx-border-color: #fff; -fx-border-radius: 0;" text="Вход" textFill="WHITE">
+        <font>
+            <Font name="Arial Bold" size="18.0" />
+        </font>
+    </Button>
+    <TextField fx:id="userLogin" layoutX="162.0" layoutY="364.0" prefHeight="27.0" prefWidth="295.0" promptText="Логин">
+        <font>
+            <Font name="Arial Bold" size="18.0" />
+        </font>
+    </TextField>
+    <TextField fx:id="userPassword" layoutX="162.0" layoutY="416.0" onKeyPressed="#enterChat" prefHeight="27.0" prefWidth="295.0" promptText="Пароль">
+        <font>
+            <Font name="Arial Bold" size="18.0" />
+        </font>
+    </TextField>
+    <ImageView fx:id="closeWindow" fitHeight="42.0" fitWidth="41.0" layoutX="464.0" layoutY="23.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@close.png" />
+        </image>
+    </ImageView>
+   <ImageView fitHeight="181.0" fitWidth="200.0" layoutX="219.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@32345lemon_98895.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
